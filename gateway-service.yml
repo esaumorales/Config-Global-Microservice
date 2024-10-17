@@ -21,9 +21,9 @@ spring:
           enabled: true
       routes:
         - id: usuario-service
-          uri: lb://usuario-service
+          uri: lb://user-service
           predicates:
-            - Path=/apiusuario/**
+            - Path=/apiuser/**
 
 
       globalcors:
