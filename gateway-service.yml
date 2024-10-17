@@ -20,7 +20,7 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: usuario-service
+        - id: user-service
           uri: lb://user-service
           predicates:
             - Path=/apiuser/**
